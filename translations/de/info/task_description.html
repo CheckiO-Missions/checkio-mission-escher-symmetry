@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+<p style="text-align: justify;">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/M._C._Escher">M. C. Escher</a> war ein niederländischer Grafiker, der unglaubliche Illustrationen schuf, die von der Mathematik inspiriert waren. Zum Beispiel füllte er die Leinwand mit selbstähnlichen Objekten, deren Konturen sich ineinander fügten und so sehr beeindruckende <a target="_blank" href="https://mcescher.com/gallery/symmetry/#">geometric symmetries</a> schufen.
+</p>
+
+<p style="text-align: justify;">
+    Ein sehr einfaches Beispiel für diese Idee sehen Sie in der folgenden Abbildung, die ein Objekt zeigt, das ein orthogonales Profil ist, das durch eine Folge von natürlichen Zahlen definiert ist, die die Folge von Höhen darstellen. Wir können eine Kopie des Objekts nehmen, sie um 180 Grad drehen und sie perfekt in das ursprüngliche Objekt einpassen, so dass ein Rechteck entsteht.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}Captura de Tela 2023-05-03 às 11.47.39.png" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Allgemeiner ausgedrückt: Wenn eine Folge von N natürlichen Zahlen, die die Abfolge der Höhen repräsentieren,<sub>A1</sub>,<sub>A2</sub>,<sub>A3</sub>, ...,<sub>AN-2</sub>,<sub>AN-1</sub>,<sub>AN</sub> ist, wird das definierte Profil als Escher-Profil bezeichnet, wenn <sub>A1+AN</sub> gleich <sub>A2+AN-1</sub> gleich <sub>A3+AN-2</sub> ist, und so weiter. In diesem Problem wird Ihnen die Folge von Höhen gegeben, die das Profil definieren und Ihr Programm muss entscheiden, ob das Profil ein Escher-Profil ist oder nicht.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Eingabe:</strong> {% if is_js %}Array{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> von ganzen Zahlen <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>Ausgabe:</strong> Boolescher Wert <span>(bool{% if is_js %}ean{% endif %})</span>.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Beispiele:</strong>
+    </p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
