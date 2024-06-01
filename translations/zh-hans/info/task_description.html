@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+<p style="text-align: justify;">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/M._C._Escher">M. C. Escher</a> 是一位荷兰平面艺术家，他从数学中汲取灵感，创作出令人难以置信的插图。例如，他在画布上填满了自相似的物体，这些物体的轮廓相互融合，创造出令人印象深刻的<a target="_blank" href="https://mcescher.com/gallery/symmetry/#">geometric symmetries</a> 。
+</p>
+
+<p style="text-align: justify;">
+    下图是这一想法的一个非常简单的例子，图中的物体是一个由代表高度序列的自然数序列定义的正交轮廓。我们可以复制这个物体，将其旋转 180 度，然后将其完美地嵌入原始物体，形成一个矩形。
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}Captura de Tela 2023-05-03 às 11.47.39.png" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    更通俗地说，如果代表高度序列的 N 个自然数序列是<sub>A1</sub>、<sub>A2</sub>、<sub>A3</sub>、...、<sub>AN-2</sub>、AN-<sub>1</sub>、AN，那么如果<sub>A1+AN</sub>等于<sub>A2+AN-1</sub>等于<sub>A3</sub>+<sub>AN</sub>-2，以此类推，所定义的轮廓就叫做埃舍尔轮廓。在这个问题中，你将得到定义轮廓的高度序列，你的程序必须判断轮廓是否为埃舍尔轮廓。
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>输入：</strong> {% if is_js %}数组{% else %}列表{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span>的整数 <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>输出：</strong>布尔值 <span>(bool{% if is_js %}ean{% endif %})</span>.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>示例</strong>
+    </p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
