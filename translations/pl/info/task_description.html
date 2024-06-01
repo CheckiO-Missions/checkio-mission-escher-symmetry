@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+<p style="text-align: justify;">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/M._C._Escher">M. C. Escher</a> był holenderskim grafikiem, który tworzył niesamowite ilustracje inspirowane matematyką. Na przykład wypełniał płótno samopodobnymi obiektami, których kontury dopasowywały się do siebie, tworząc bardzo imponujące <a target="_blank" href="https://mcescher.com/gallery/symmetry/#">geometric symmetries</a>.
+</p>
+
+<p style="text-align: justify;">
+    Proszę zobaczyć bardzo prosty przykład tego pomysłu na poniższym rysunku, który przedstawia obiekt będący profilem ortogonalnym zdefiniowanym przez ciąg liczb naturalnych reprezentujących ciąg wysokości. Możemy wziąć kopię obiektu, obrócić ją o 180 stopni i idealnie dopasować do oryginalnego obiektu, tworząc prostokąt.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}Captura de Tela 2023-05-03 às 11.47.39.png" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    Mówiąc bardziej ogólnie, jeśli ciąg N liczb naturalnych reprezentujących sekwencję wysokości to<sub>A1</sub>,<sub>A2</sub>,<sub>A3</sub>, ...,<sub>AN-2</sub>,<sub>AN-1</sub>,<sub>AN</sub>, zdefiniowany profil będzie nazywany profilem Eschera, jeśli mamy <sub>A1+AN</sub> równe <sub>A2+AN-1</sub> równe <sub>A3+AN-2</sub> i tak dalej. W tym zadaniu otrzymają Państwo sekwencję wysokości, które definiują profil, a Państwa program musi zdecydować, czy profil jest profilem Eschera, czy nie.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Dane wejściowe:</strong> {% if is_js %}Tablica{% else %}Lista{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> liczb całkowitych <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>Dane wyjściowe:</strong> Wartość logiczna <span>(bool{% if is_js %}ean{% endif %})</span>.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Przykłady:</strong>
+    </p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
