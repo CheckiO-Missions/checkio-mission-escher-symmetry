@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+<p style="text-align: justify;">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/M._C._Escher">M. C. Escher</a> голландський графік, який створював неймовірні ілюстрації, натхненні математикою. Наприклад, він заповнював полотно самоподібними об'єктами, контури яких вписуються самі в себе, створюючи дуже вражаючі <a target="_blank" href="https://mcescher.com/gallery/symmetry/#">geometric symmetries</a>.
+</p>
+
+<p style="text-align: justify;">
+    Дуже простий приклад цієї ідеї можна побачити на наступному малюнку, де зображено об'єкт, який є ортогональним профілем, визначеним послідовністю натуральних чисел, що представляють послідовність висот. Ми можемо взяти копію об'єкта, повернути її на 180 градусів і ідеально вписати в оригінальний об'єкт, утворивши прямокутник.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}Captura de Tela 2023-05-03 às 11.47.39.png" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    У більш загальному випадку, якщо послідовність з N натуральних чисел, що представляє послідовність висот, має вигляд <sub>A1</sub>, <sub>A2</sub>,<sub>A3</sub>, ...,<sub>AN-2</sub>,<sub>AN-1</sub>,<sub>AN</sub>, то заданий профіль буде називатися профілем Ешера, якщо для <sub>A1+AN</sub> дорівнює <sub>A2+AN-1</sub> дорівнює <sub>A3+AN-2</sub>, і так далі. У цій задачі вам буде задано послідовність висот, які визначають профіль, і ваша програма повинна вирішити, чи є цей профіль профілем Ешера чи ні.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Вхідні дані:</strong> {% if is_js %}Масив{% else %}Список{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> цілих чисел <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>Вивести:</strong> Булеве значення <span>(bool{% if is_js %}ean{% endif %})</span>.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Приклади:</strong>
+    </p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
