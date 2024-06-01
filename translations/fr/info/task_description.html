@@ -1,0 +1,36 @@
+<!-- Describe task in general -->
+<p style="text-align: justify;">
+    <a target="_blank" href="https://en.wikipedia.org/wiki/M._C._Escher">M. C. Escher</a> était un graphiste néerlandais qui créait d'incroyables illustrations inspirées des mathématiques. Par exemple, il remplissait la toile d'objets auto-similaires, dont les contours s'emboîtaient les uns dans les autres, créant ainsi des images très impressionnantes <a target="_blank" href="https://mcescher.com/gallery/symmetry/#">geometric symmetries</a>.
+</p>
+
+<p style="text-align: justify;">
+    Vous trouverez un exemple très simple de cette idée dans la figure suivante, qui montre un objet qui est un profil orthogonal défini par une séquence de nombres naturels représentant la séquence des hauteurs. Nous pouvons prendre une copie de l'objet, la faire pivoter de 180 degrés et l'insérer parfaitement dans l'objet original, en formant un rectangle.
+</p>
+
+<p style="text-align: center;">
+    <img  title="example" src="{{MEDIA}}Captura de Tela 2023-05-03 às 11.47.39.png" alt="example" style="max-height: 300px"/>
+</p>
+
+<p style="text-align: justify;">
+    En termes plus généraux, si une séquence de N nombres naturels représentant la séquence des hauteurs est<sub>A1</sub>,<sub>A2</sub>,<sub>A3</sub>, ...,<sub>AN-2</sub>,<sub>AN-1</sub>,<sub>AN</sub>, le profil défini sera appelé profil d'Escher si nous avons <sub>A1+AN</sub> égal à <sub>A2+AN-1</sub> égal à <sub>A3+AN-2</sub>, et ainsi de suite. Dans ce problème, on vous donnera la séquence des hauteurs qui définissent le profil et votre programme devra décider si le profil est un profil d'Escher ou non.
+</p>
+
+<!-- Explain input and output values -->
+<p>
+   <strong>Entrée:</strong> {% if is_js %}Tableau{% else %}Liste{% endif %} <span>({% if is_js %}Array{% else %}List{% endif %})</span> d'entiers <span>({% if is_js %}number{% else %}int{% endif %})</span>
+</p>
+
+<p>
+   <strong>Sortie:</strong> Valeur booléenne <span>(bool{% if is_js %}ean{% endif %})</span>.
+</p>
+
+
+<!-- Put some usage examples -->
+<div class="for_info_only">
+    <p>
+        <strong>Exemples:</strong>
+    </p>
+
+<pre class="brush: {% if is_js %}javascript{% else %}python{% endif %}">{{init_code_tmpl}}</pre>
+</div>
+
